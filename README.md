@@ -1,6 +1,16 @@
 # perception
 
-## Article
-Podesva et al. 2015
+High level summary
+If someone who has no idea what you were up to, they should be able to read this description and get a general sense of what the project is about and where to look for which bits and pieces.
 
-https://www.cambridge.org/core/journals/language-variation-and-change/article/constraints-on-the-social-meaning-of-released-t-a-production-and-perception-study-of-us-politicians/1C2B293AB69FE4A098AAC3FF127AE488
+## perception/docs
+Documents related to the experiement
+
+## perception/data
+CSV files related to the raw data
+
+## perception/experiment
+Folders and files related to the programming and execution of the experiment
+
+## perception/results
+Files related to the analysis of the data

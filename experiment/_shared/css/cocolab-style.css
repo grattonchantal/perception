@@ -107,8 +107,12 @@ textarea {
 	transform: translateY(-200%);
 }
 
-.slider_target {
+.slider_target_left {
 	text-align: right;
+}
+
+.slider_target_right {
+	text-align: left;
 }
 
 .ui-slider-range {

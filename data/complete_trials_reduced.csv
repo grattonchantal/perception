@@ -1,0 +1,393 @@
+workerid,filler,stimulus,topic,prosody,adj_1,adj_2,adj_1_pole,not_paid_attention,num_plays,time,agree,like,friendly,happy,open_answer
+1,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,17712,0.49,0.29,0.77,0.52,
+1,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,12209,0.49,0.49,0.5,0.57,
+1,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,11386,0.38,0.2,0.26,0.85,
+2,False,cake_neg,cake,contrastive,good,good,pos,False,1,9568,0.71,0.78,0.55,0.59,
+2,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,11249,0.42,0.52,0.3,0.69,
+2,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,10850,0.45,0.52,0.33,0.72,
+3,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,44392,0.56,0.7,0.41,0.5,tired
+3,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,25993,0.55,0.39,0.46,0.39,apprehensive
+3,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,39968,0.76,0.42,0.7,0.87,questioning
+4,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,19120,0.66,0.82,0.58,0.24,confused
+4,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,28097,0.69,0.24,0.61,0.22,talkative
+4,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,2,20501,0.63,0.74,0.41,0.13,questioning
+5,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,47816,0.47,0.54,0.38,0.31,"speaker 2 thinks it was cozy but could have been better, she feels slight disagreement with speaker1"
+5,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,72624,0.48,0.61,0.55,0.43,speaker 2 thinks it was cute but it could have been better.  She mildly disagrees that it was as cute as speaker 1 thinks it is
+5,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,45633,0.81,0.89,0.51,0.6,speaker 2 wants to confirm that the theater was dreary and feels curious
+6,False,cake_neg,cake,contrastive,good,good,pos,False,2,57612,0.32,0.14,0.5,0.21,She thought the cake was only okay but not good.
+6,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,71615,0.36,0.5,0.38,0,She thought speaker 1 was wrong
+6,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,3,97245,0.86,1,0.79,1,She felt very certain that the scarf was cute.
+7,False,cake_neg,cake,contrastive,good,good,pos,False,2,66192,0.58,0.46,0.71,0.33,She sounds a bit tense.
+7,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,3,61191,0.72,1,1,1,Sounds a bit tired to me.
+7,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,39201,0.5,0.61,0.49,0.49,She sounds surprised.
+8,False,cake_neg,cake,contrastive,good,good,pos,False,1,18361,0.57,0.67,0.89,0.66,
+8,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,17245,0.47,0.42,0.6,0.37,
+8,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,12625,0.14,0.12,0.57,0.96,
+9,False,cake_neg,cake,contrastive,good,good,pos,False,1,30180,0.5,0.19,0.36,0.79,Speaker 2 actually hates the cake and is actually confused as to why speaker 1 thinks the cake is good.
+9,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,26490,0.7,1,1,1,Speaker 2 liked the restaurant a lot and agrees with speaker 1.
+9,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,45981,0.48,0.48,0.47,0.63,"Speaker 2 is confused, they don&quotechart know if the scarf is cute but likes speaker 1 so forces them self to agree with speaker 1."
+10,False,cake_neg,cake,contrastive,good,good,pos,False,1,10223,0.53,0.7,0.66,0.66,
+10,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,16569,0.58,0.74,0.71,0.71,
+10,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,10719,0.68,0.54,0.62,0.64,
+11,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,24412,0.52,0.27,0.29,0.29,Speaker 2 feels conflicted.
+11,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,22069,0.94,1,0.99,1,Speaker 2 feels content.
+11,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,15472,0.48,0.48,0.5,0.48,Speaker 2 feels conflicted.
+12,False,cake_neg,cake,contrastive,good,good,pos,False,1,20905,0.61,0.51,0.77,0.56,I don&quotechart think she means it.
+12,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,16267,0.2,0.4,0.58,0.61,She has more to say.
+12,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,20403,0.71,0.62,0.71,0.5,I think she might have a little more to say.
+13,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,24307,0.69,0.8,0.05,0.73,doesn&quotechart understand how the ice cream was bad
+13,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,27859,0.4,0.69,0.27,0.39,a little annoyed or offended at the judgement
+13,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,36664,0.57,0.15,0.08,0.59,"I don&quotechart know, but there&quotechars an implied ""but"" at the end of ""cozy"""
+14,False,movie_neg,movie,contrastive,boring,boring,neg,False,3,48321,0.47,0.35,0.45,0.48,She doesn&quotechart understand why he thought it was boring.
+14,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,3,57023,0.71,0.38,0.44,0.67,She&quotechars annoyed by speaker 1 for some reason.
+14,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,3,88619,0.44,0.67,0.63,0.5,She thinks speaker 1 is complaining too much.
+15,False,cake_neg,cake,contrastive,good,good,pos,False,1,12551,0.48,1,0.85,0.84,Not sure
+15,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,24632,0.5,0.31,0.5,0.7,Curious as to why speaker 1 thought it was boring.
+15,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,15663,0.6,0.83,0.89,0.83,Not sure
+16,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,50473,0.1,0.76,0.93,0.72,"Again, the but. It was bad but something positive about it."
+16,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,71337,0.36,0.67,0.82,0.68,"There is something else, like a but. The movie was boring but...something positive."
+16,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,69971,0.42,0.69,0.9,0.61,I&quotecharm thinking she&quotechars thinking the restaurant was cozy but not very good.
+17,False,cake_neg,cake,contrastive,good,good,pos,False,2,102949,0.49,0.49,0.51,0.49,No idea.
+17,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,27998,0.18,0.19,0.5,0.5,No idea.
+17,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,24104,0.48,0.36,0.5,0.5,Questioning.
+19,False,cake_neg,cake,contrastive,good,good,pos,False,1,31361,0.73,0.62,0.9,0.81,She seems to have a little doubt in her thoughts about the cake.
+19,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,51773,0.21,0.62,0.82,0.67,She thinks the ice cream wasn&quotechart too good but doesn&quotechart think it was horrible.
+19,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,52629,0.6,0.59,0.69,0.66,"While she thinks the restaurant was cozy, she seems to have some doubt about it."
+20,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,24895,0.2,0.75,0.37,0.62,They had other issues with the restaurant.
+20,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,22651,0.61,0.64,0.65,0.79,They have some other issues with the scarf.
+20,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,2,29078,0.76,0.23,0.62,0.83,They enjoyed the theatre.
+21,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,14911,0.35,0.33,0.61,0.4,
+21,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,16373,0.46,0.34,0.34,0.31,
+21,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,15508,0.37,0.32,0.2,0.52,
+22,False,cake_neg,cake,contrastive,good,good,pos,False,1,23746,0.9,0.77,0.82,0.75,indifferent
+22,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,21526,0.99,0.79,0,0.08,irritation
+22,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,17980,0.98,0.92,0.92,0.92,questioning
+23,False,cake_neg,cake,contrastive,good,good,pos,False,2,187904,0.58,0.53,0.52,0.43,no idea
+23,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,2,182396,0.27,0.48,0.49,0.32,less than impressed with thr scarf
+23,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,32430,0.63,0.58,0.53,0.31,they wonder why the first person feels the way they do
+24,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,15863,0.39,0.39,0.22,0.59,is uncertain
+24,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,17922,0.32,0.35,0.29,0.3,tries to mask feelings
+24,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,19008,0.49,0.45,0.21,0.68,Surprised
+25,False,cake_neg,cake,contrastive,good,good,pos,False,2,65016,0.7,0.68,0.65,0.71,Speaker 2 is agreeable to the statement of speaker 1.
+25,False,movie_neg,movie,contrastive,boring,boring,neg,False,3,86501,0.4,0.71,0.42,0.09,Speaker 2 thinks speaker 1 is correct.
+25,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,33369,0.43,0.51,0.57,0.55,Speaker 2 doesn&quotechart like the scarf as much as speaker 1.
+27,False,movie_neg,movie,contrastive,boring,boring,neg,False,2,20752,0.62,0.54,0.48,0.73,Bored
+27,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,24950,0.54,0.53,0.55,0.6,I think she might not like it as much as her friend
+27,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,17570,0.63,0.55,0.57,0.55,Contentment
+28,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,39800,0.58,0.37,0.36,0.56,"They agree, but only partially, and want to clarify/soften their opinion. "
+28,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,139015,0.61,0.52,0.72,0.62,"They partially agree, but they feel other restaurants have more of the trait (""coziness""). "
+28,False,scarf_neg,scarf,contrastive,cute,cute,pos,False,1,32744,0.32,0.56,0.81,0.75,"They regret not buying the scarf or something, maybe?"
+29,False,cake_neg,cake,contrastive,good,good,pos,False,2,29892,0.29,0.29,0.13,0.12,cautious
+29,False,ice_cream_neg,ice cream,contrastive,bad,bad,neg,False,1,29359,0.5,0.51,0.58,0.46,ready
+29,False,movie_neg,movie,contrastive,boring,boring,neg,False,1,32773,0.28,0.3,0.49,0.38,apprehensive
+30,False,movie_neg,movie,contrastive,boring,boring,neg,False,2,84023,0.22,0.8,0.49,0.26,Nothing
+30,False,restaurant_neg,restaurant,contrastive,cozy,cozy,pos,False,1,38458,0.66,0.72,0.46,0.61,seemed to trail off like they were going to say but....
+30,False,theatre_neg,theatre,contrastive,dreary,dreary,neg,False,1,40623,0.35,0.71,0.5,0.26,
+1,True,book,book,neutral,crummy,okay,neg,False,1,11530,0.62,0.26,0.8,0.73,
+1,True,coffee,coffee,neutral,bitter,strong,neg,False,1,13421,0.5,0.34,0.6,0.85,
+1,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,11174,0.52,0.87,0.81,0.81,
+1,True,hat,hat,neutral,ugly,really bad,neg,False,1,12598,0.49,0.93,0.2,0.87,
+1,True,museum,museum,neutral,classy,pretty classy,pos,False,1,12020,0.63,0.67,0.62,0.9,
+1,True,salad,salad,neutral,gross,pretty gross,neg,False,1,14997,0.29,0.71,0.42,0.6,
+1,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,13316,0.52,0.58,0.61,0.86,
+1,True,song,song,neutral,catchy,really good,pos,False,1,10967,0.58,0.62,0.57,0.56,
+2,True,book,book,neutral,crummy,okay,neg,False,2,25609,0.29,0.53,0.45,0.69,
+2,True,coffee,coffee,neutral,bitter,strong,neg,False,1,11980,0.6,0.72,0.68,0.6,
+2,True,documentary,documentary,neutral,fascinating,very cool,pos,False,3,123853,0.77,0.65,0.82,0.92,
+2,True,hat,hat,neutral,ugly,really bad,neg,False,1,10442,0.44,0.6,0.29,0.77,
+2,True,museum,museum,neutral,classy,pretty classy,pos,False,1,10935,0.62,0.69,0.68,0.76,
+2,True,salad,salad,neutral,gross,pretty gross,neg,False,1,12427,0.4,0.65,0.27,0.87,
+2,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,10414,0.66,0.7,0.66,0.8,
+2,True,song,song,neutral,catchy,really good,pos,False,1,9882,0.63,0.77,0.7,0.83,
+3,True,book,book,neutral,crummy,okay,neg,False,1,28544,0.58,0.14,0.6,0.64,confident
+3,True,coffee,coffee,neutral,bitter,strong,neg,False,1,31225,0.69,0.36,0.48,0.59,conflicted
+3,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,23408,0.43,0.55,0.55,0.3,bored
+3,True,hat,hat,neutral,ugly,really bad,neg,False,1,23800,0.63,0.9,0.06,0.62,disgusted
+3,True,museum,museum,neutral,classy,pretty classy,pos,False,1,31912,0.64,0.82,0.67,0.65,agreeable
+3,True,salad,salad,neutral,gross,pretty gross,neg,False,1,33216,0.58,0.96,0.03,0.2,low energy
+3,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,28526,0.61,0.87,0.78,0.53,satisfied
+3,True,song,song,neutral,catchy,really good,pos,False,1,19239,0.56,0.74,0.68,0.43,bored
+4,True,book,book,neutral,crummy,okay,neg,False,2,24883,0.42,0.6,0.43,0.31,irritated
+4,True,coffee,coffee,neutral,bitter,strong,neg,False,3,44594,0.48,0.78,0.47,0.86,depressed
+4,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,16366,0.26,0.25,0.24,0.48,bored
+4,True,hat,hat,neutral,ugly,really bad,neg,False,1,15432,0.8,0.18,0.79,0.77,relaxed
+4,True,museum,museum,neutral,classy,pretty classy,pos,False,1,20901,0.79,0.8,0.81,0.82,agreeable 
+4,True,salad,salad,neutral,gross,pretty gross,neg,False,1,16032,0.63,0.24,0.49,0.85,disgusted
+4,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,22905,0.51,0.2,0.41,0.17,sarcastic
+4,True,song,song,neutral,catchy,really good,pos,False,1,13872,0.71,0.71,0.7,0.72,content
+5,True,book,book,neutral,crummy,okay,neg,False,1,44128,0.55,0.52,0.8,0.16,speaker 2 felt the book wasn&quotechart that bad and she thinks speaker 1 may have judged the book a bit harshly
+5,True,coffee,coffee,neutral,bitter,strong,neg,False,1,53903,0.5,0.44,0.57,0.45,speaker 2 may somewhat disagree because she used a different word.  She may feel that the coffee is strong but she still likes it
+5,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,44073,0.49,0.62,0.95,0.94,speaker 2 thought the documentary was good and agrees  with speaker 1.  She feels that she liked watching it.
+5,True,hat,hat,neutral,ugly,really bad,neg,False,1,44177,0.63,0.58,0.04,0.97,speaker 2 does not like the hat.  she truly feels that the hat looks very bad.
+5,True,museum,museum,neutral,classy,pretty classy,pos,False,1,50704,0.74,0.78,0.85,0.64,speaker 2 thinks it is classy but not as much as speaker 1 does.  She thinks she has seen more classy places but it could be described that way.
+5,True,salad,salad,neutral,gross,pretty gross,neg,False,1,41231,0.5,0.58,0.22,0.88,speaker 2 thinks the salad was gross but perhaps not quite as bad as speaker 1 thought it was.
+5,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,58351,0.32,0.42,0.34,0.36,I can&quotechart tell if she&quotechars being sarcastic or not.  She seems to half heartedly agree with speaker 1
+5,True,song,song,neutral,catchy,really good,pos,False,1,48040,0.56,0.48,0.66,0.83,speaker 2 things the song is OK and wants to agree with speaker 1 even though she might not actually like as much.
+6,True,book,book,neutral,crummy,okay,neg,False,3,66905,0.59,0.66,0.75,0.17,She didn&quotechart think the book was that bad and speaker 1 was wrong.
+6,True,coffee,coffee,neutral,bitter,strong,neg,False,1,43479,0.19,0,0.6,1,She thought about the strong aftertaste in her mouth.
+6,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,58626,0.7,1,0.78,1,She thought the documentary was excellent.
+6,True,hat,hat,neutral,ugly,really bad,neg,False,1,50578,0,0,0.53,1,She thought the hat was hideous
+6,True,museum,museum,neutral,classy,pretty classy,pos,False,1,55026,1,1,0.89,1,She thought going to the museum is a good way to spend her time.
+6,True,salad,salad,neutral,gross,pretty gross,neg,False,1,59492,0.26,0,0.77,1,The salad grossed her out because it tasted bad.
+6,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,53175,0.79,1,0.81,1,She thought the smoothie was good.
+6,True,song,song,neutral,catchy,really good,pos,False,1,47925,0.83,1,0.75,1,She thought the song was good too.
+7,True,book,book,neutral,crummy,okay,neg,False,2,51408,0.34,0.55,0.32,0.13,"She sounds exhausted, really bored, or half asleep."
+7,True,coffee,coffee,neutral,bitter,strong,neg,False,1,51250,0.48,0.68,0.49,0.31,She sounds annoyed.
+7,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,84097,0.17,0.26,0.49,0.27,She sounds bored out of her mind or possibly depressed.
+7,True,hat,hat,neutral,ugly,really bad,neg,False,2,67608,0.5,0.12,0.56,0.87,She sounds bored.
+7,True,museum,museum,neutral,classy,pretty classy,pos,False,1,35999,0.22,0.48,0.21,0.48,She sounds mad.
+7,True,salad,salad,neutral,gross,pretty gross,neg,False,1,46696,0.51,0.18,0.58,0.87,She sounds a bit let down.
+7,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,27375,0.59,0.85,0.67,1,She sounds satisfied.
+7,True,song,song,neutral,catchy,really good,pos,False,1,31560,0.36,0.44,0.31,0.44,She sounds a bit annoyed.
+8,True,book,book,neutral,crummy,okay,neg,False,3,24690,0.47,0.5,0.54,0.03,
+8,True,coffee,coffee,neutral,bitter,strong,neg,False,1,21641,0.09,0.11,0.89,0.91,
+8,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,16108,0.48,0.43,0.53,0.44,
+8,True,hat,hat,neutral,ugly,really bad,neg,False,1,14987,0.11,0.13,0.79,0.9,
+8,True,museum,museum,neutral,classy,pretty classy,pos,False,2,16511,0.51,0.72,0.75,0.78,
+8,True,salad,salad,neutral,gross,pretty gross,neg,False,1,14065,0.17,0.17,0.8,0.88,
+8,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,25234,0.55,0.57,0.75,0.74,
+8,True,song,song,neutral,catchy,really good,pos,False,1,11781,0.71,0.7,0.78,0.82,
+9,True,book,book,neutral,crummy,okay,neg,False,1,31190,0.61,0.48,0.51,0.87,Speaker 2 thinks the book is okay but is too meek to speak her true feelings.
+9,True,coffee,coffee,neutral,bitter,strong,neg,False,1,40138,0.52,0.72,0.66,0.54,Speaker 2 clearly likes strong coffee but doesn&quotechart think it&quotechars very bitter.
+9,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,34380,0.48,0.61,0.56,0.82,Speaker 2 doesn&quotechart want to seem like an asshole for hating the documentary. They are fighting against their true feelings.
+9,True,hat,hat,neutral,ugly,really bad,neg,False,1,33569,0.67,0,1,1,Speaker 2 hates the hat as much as speaker 1.
+9,True,museum,museum,neutral,classy,pretty classy,pos,False,1,19233,1,1,1,1,Speaker 2 genuinely thinks the museum is classy.
+9,True,salad,salad,neutral,gross,pretty gross,neg,False,1,24806,0.6,0,1,1,Speaker 2 really doesn&quotechart like the salad.
+9,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,26853,0.24,0,0,0,sarcastic and mean spirited. 
+9,True,song,song,neutral,catchy,really good,pos,False,1,23662,0.6,1,1,0.83,Speaker 2 is trying to add something to the conversation.
+10,True,book,book,neutral,crummy,okay,neg,False,1,12344,0.65,0.41,0.55,0.33,
+10,True,coffee,coffee,neutral,bitter,strong,neg,False,1,12767,0.64,0.75,0.57,0.24,
+10,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,13751,0.58,0.71,0.66,0.72,
+10,True,hat,hat,neutral,ugly,really bad,neg,False,1,12201,0.62,0.5,0.58,0.58,
+10,True,museum,museum,neutral,classy,pretty classy,pos,False,1,9759,0.6,0.7,0.72,0.73,
+10,True,salad,salad,neutral,gross,pretty gross,neg,False,1,11200,0.66,0.79,0.62,0.67,
+10,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,10312,0.61,0.75,0.73,0.73,
+10,True,song,song,neutral,catchy,really good,pos,False,1,9184,0.57,0.7,0.69,0.72,
+11,True,book,book,neutral,crummy,okay,neg,False,3,30144,0.46,0.1,0.61,0.61,Speaker 2 feels a bit let down by the book.
+11,True,coffee,coffee,neutral,bitter,strong,neg,False,1,20404,0.59,0.53,0.38,0.33,Speaker 2 feels conflicted about the coffee.
+11,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,28816,0.61,0.87,0.87,0.88,Speaker 2 feels just just OK about the documentary.
+11,True,hat,hat,neutral,ugly,really bad,neg,False,1,14640,0.64,1,0,0,Speaker 2 feels disappointed.
+11,True,museum,museum,neutral,classy,pretty classy,pos,False,1,37423,0.62,0.64,0.68,0.65,Speaker 2 feels content.
+11,True,salad,salad,neutral,gross,pretty gross,neg,False,2,40934,0.79,1,0,0,Speaker 2 feels upset.
+11,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,15166,0.85,1,0.99,0.99,Speaker 2 feels contentment.
+11,True,song,song,neutral,catchy,really good,pos,False,1,14284,0.97,0.98,0.97,0.97,Speaker 2 feels content.
+12,True,book,book,neutral,crummy,okay,neg,False,1,21870,0.4,0.55,0.58,0.48,She kind of likes the book. 
+12,True,coffee,coffee,neutral,bitter,strong,neg,False,1,32390,0.22,0.4,0.49,0.54,She kind of likes it
+12,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,15798,0.78,0.88,0.84,0.87,That&quotechars it.
+12,True,hat,hat,neutral,ugly,really bad,neg,False,1,17652,0.18,0.57,0.57,0.87,IT&quotechars a bad hat
+12,True,museum,museum,neutral,classy,pretty classy,pos,False,1,19586,0.86,0.81,0.88,0.95,She likes it too.
+12,True,salad,salad,neutral,gross,pretty gross,neg,False,1,18699,0.03,0.32,0.62,0.19,Glad they agree
+12,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,18063,0.91,0.95,0.89,0.92,She enjoyed it too.
+12,True,song,song,neutral,catchy,really good,pos,False,2,41438,0.81,0.86,0.83,0.83,They both like the song.
+13,True,book,book,neutral,crummy,okay,neg,False,1,31000,0.22,0.38,0.3,0.41,no strong thoughts about the book
+13,True,coffee,coffee,neutral,bitter,strong,neg,False,1,45340,0.52,0.52,0.34,0.71,"""strong"" feels like a diplomatic way to sidestep thoughts on whether or not the coffee is ""bitter"", which is a more negative word"
+13,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,34205,0.46,0.43,0.55,0.49,"likes the documentary, but not enthusiastic about it"
+13,True,hat,hat,neutral,ugly,really bad,neg,False,1,37054,0.48,0.16,0.72,0.55,do not get the hat
+13,True,museum,museum,neutral,classy,pretty classy,pos,False,1,29097,0.49,0.51,0.46,0.5,"""... but I&quotecharve been to classier"""
+13,True,salad,salad,neutral,gross,pretty gross,neg,False,1,50831,0.46,0.33,0.64,0.62,happy to agree the salad was gross
+13,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,37749,0.22,0.24,0.34,0.38,n/a
+13,True,song,song,neutral,catchy,really good,pos,False,1,24903,0.32,0.3,0.28,0.45,"""catchy"" isn&quotechart how she&quotechard describe the song"
+14,True,book,book,neutral,crummy,okay,neg,False,2,80378,0.25,0.66,0.59,0.68,She wants to be alone right now.
+14,True,coffee,coffee,neutral,bitter,strong,neg,False,1,40076,0.35,0.67,0.66,0.6,She thinks that the coffee is too strong.
+14,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,30122,0.74,0.6,0.59,0.73,She is tired.
+14,True,hat,hat,neutral,ugly,really bad,neg,False,5,134877,0.59,0.72,0.59,0.15,She likes speaker 1.
+14,True,museum,museum,neutral,classy,pretty classy,pos,False,3,49942,0.83,0.72,0.74,0.7,She wants to see more of the museum.
+14,True,salad,salad,neutral,gross,pretty gross,neg,False,2,70905,0.76,0.67,0.59,0.16,She wants something else to eat.
+14,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,32944,0.88,0.78,0.79,0.94,She wants another smoothie.
+14,True,song,song,neutral,catchy,really good,pos,False,1,30504,0.51,0.66,0.56,0.85,She wants to be left alone.
+15,True,book,book,neutral,crummy,okay,neg,False,1,19112,0.5,0.32,0.64,0.69,Not sure
+15,True,coffee,coffee,neutral,bitter,strong,neg,False,1,13985,0.49,0.35,0.53,0.73,Not sure
+15,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,15232,0.5,0.81,0.75,0.81,Not sure
+15,True,hat,hat,neutral,ugly,really bad,neg,False,1,13800,0.46,1,0,0.79,Not sure
+15,True,museum,museum,neutral,classy,pretty classy,pos,False,1,15032,0.51,0.63,0.7,0.77,Not sure
+15,True,salad,salad,neutral,gross,pretty gross,neg,False,1,16190,0.45,1,0,0.76,Not sure
+15,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,17967,0.52,0.66,0.84,0.8,Not sure
+15,True,song,song,neutral,catchy,really good,pos,False,1,24911,0.64,0.74,0.85,0.84,"Maybe she feels it&quotechars not exactly catchy, but it is indeed a good song."
+16,True,book,book,neutral,crummy,okay,neg,False,1,51743,0.63,0.8,0.26,0.8,"The book was OK, not crummy. Again, she&quotechars being nice."
+16,True,coffee,coffee,neutral,bitter,strong,neg,False,1,49911,0.74,0.76,0.12,0.74,She likes the coffee; his bitter is her strong.
+16,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,54983,0.81,0.9,0.74,0.83,"The documentary was cool, but maybe not fascinating. She&quotechars just being agreeable."
+16,True,hat,hat,neutral,ugly,really bad,neg,False,1,64703,0.04,0.72,0.81,0.69,I&quotecharm not sure if anything else is conveyed here except the hat is badly ugly.
+16,True,museum,museum,neutral,classy,pretty classy,pos,False,1,48539,0.82,0.77,0.99,0.74,"Nothing else is indicated in her voice, to me."
+16,True,salad,salad,neutral,gross,pretty gross,neg,False,1,42022,0.11,0.74,0.92,0.77,Nothing else conveyed to me here except the salad was pretty gross.
+16,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,55369,0.12,0.68,0.1,0.6,Her use of great is definitely sarcastic. She didn&quotechart like it.
+16,True,song,song,neutral,catchy,really good,pos,False,1,35826,0.64,0.83,0.65,0.75,The song is not catchy bit it&quotechars OK.
+17,True,book,book,neutral,crummy,okay,neg,False,2,31109,0.52,0.3,0.48,0.47,No idea.
+17,True,coffee,coffee,neutral,bitter,strong,neg,False,1,16748,0.5,0.35,0.51,0.51,No idea.
+17,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,19513,0.59,0.63,0.5,0.5,No idea.
+17,True,hat,hat,neutral,ugly,really bad,neg,False,2,62694,0.15,0.5,0.5,0.71,No idea.
+17,True,museum,museum,neutral,classy,pretty classy,pos,False,1,17823,0.73,0.81,0.5,0.49,No idea.
+17,True,salad,salad,neutral,gross,pretty gross,neg,False,1,19906,0.31,0.68,0.49,0.49,No idea.
+17,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,21154,0.85,0.83,0.5,0.5,No idea.
+17,True,song,song,neutral,catchy,really good,pos,False,1,20068,0.49,0.38,0.51,0.51,No idea.
+19,True,book,book,neutral,crummy,okay,neg,False,2,39386,0.51,0.25,0.66,0.52,She doesn&quotechart think the book was necessarily good or bad.
+19,True,coffee,coffee,neutral,bitter,strong,neg,False,1,70429,0.51,0.39,0.8,0.66,She thinks that the coffee has a strong taste but not too sure on the bitterness.
+19,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,99760,0.68,0.5,0.88,0.71,She seemed to think the documentary was good but not fascinating.
+19,True,hat,hat,neutral,ugly,really bad,neg,False,1,58563,0.04,0.96,0.92,0.76,She really agrees that she dislikes the hat.
+19,True,museum,museum,neutral,classy,pretty classy,pos,False,1,37852,0.71,0.57,0.65,0.64,She thinks the museum could be classier.
+19,True,salad,salad,neutral,gross,pretty gross,neg,False,1,33724,0.05,0.85,0.84,0.76,She thought the salad had a nasty taste.
+19,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,42401,0.79,0.72,0.74,0.59,She thinks the smoothie was great but doesn&quotechart seem overly happy.
+19,True,song,song,neutral,catchy,really good,pos,False,2,72510,0.69,0.75,0.84,0.74,She thinks the sound is good but isn&quotechart too confident in her answer.
+20,True,book,book,neutral,crummy,okay,neg,False,1,34681,0.59,0.14,0.6,0.69,They weren&quotechart really that into the book but they kind of enjoyed it.
+20,True,coffee,coffee,neutral,bitter,strong,neg,False,1,22674,0.66,0.67,0.32,0.76,They enjoy bitter things.
+20,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,18567,0.7,0.79,0.31,0.66,They&quotecharre tired.
+20,True,hat,hat,neutral,ugly,really bad,neg,False,1,31540,0.13,0.37,0.66,0.59,They don&quotechart trust Speaker 1&quotechars aesthetic choices.
+20,True,museum,museum,neutral,classy,pretty classy,pos,False,1,45915,0.66,0.66,0.31,0.77,They like the museum but they&quotecharre not enjoying it.
+20,True,salad,salad,neutral,gross,pretty gross,neg,False,1,27000,0.19,0.87,0.62,0.79,They usually like salad.
+20,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,19194,0.74,0.83,0.19,0.35,They&quotecharre upset about something.
+20,True,song,song,neutral,catchy,really good,pos,False,1,18403,0.77,0.82,0.3,0.57,They&quotecharre depressed.
+21,True,book,book,neutral,crummy,okay,neg,False,1,11213,0.64,0.58,0.65,0.71,
+21,True,coffee,coffee,neutral,bitter,strong,neg,False,1,13132,0.61,0.69,0.54,0.67,
+21,True,documentary,documentary,neutral,fascinating,very cool,pos,False,3,20206,0.69,0.77,0.81,0.7,
+21,True,hat,hat,neutral,ugly,really bad,neg,False,1,13004,0.34,0.79,0.3,0.6,
+21,True,museum,museum,neutral,classy,pretty classy,pos,False,1,11921,0.65,0.8,0.71,0.69,
+21,True,salad,salad,neutral,gross,pretty gross,neg,False,1,12623,0.29,0.74,0.3,0.6,
+21,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,13545,0.56,0.69,0.76,0.72,
+21,True,song,song,neutral,catchy,really good,pos,False,1,12521,0.65,0.77,0.74,0.7,
+22,True,book,book,neutral,crummy,okay,neg,False,2,53367,0.35,0.59,0.64,0.41,
+22,True,coffee,coffee,neutral,bitter,strong,neg,False,1,18446,0.83,0.81,0.48,0.76,
+22,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,29988,0.99,0.99,0.99,0.98,
+22,True,hat,hat,neutral,ugly,really bad,neg,False,1,44556,1,0.81,0.01,0.49,
+22,True,museum,museum,neutral,classy,pretty classy,pos,False,1,20138,0.99,0.98,0.99,1,
+22,True,salad,salad,neutral,gross,pretty gross,neg,False,1,20808,0.99,0.47,0,0.41,disgust
+22,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,18002,0.98,0.98,0.98,0.98,
+22,True,song,song,neutral,catchy,really good,pos,False,1,14732,0.98,0.99,1,0.96,
+23,True,book,book,neutral,crummy,okay,neg,False,2,76871,0.62,0.3,0.41,0.29,they liked the book but don&quotechart want to start a discussion over it
+23,True,coffee,coffee,neutral,bitter,strong,neg,False,1,29774,0.48,0.27,0.58,0.27,the coffee is maybe too strong
+23,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,31660,0.67,0.68,0.69,0.69,no idea
+23,True,hat,hat,neutral,ugly,really bad,neg,False,1,20562,0.1,0.66,0.63,0.02,the hat sucks
+23,True,museum,museum,neutral,classy,pretty classy,pos,False,2,98304,0.69,0.41,0.52,0.7,no idea
+23,True,salad,salad,neutral,gross,pretty gross,neg,False,1,21487,0.16,0.5,0.37,0.86,no clue
+23,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,49297,0.36,0.45,0.18,0.33,no idea
+23,True,song,song,neutral,catchy,really good,pos,False,1,26319,0.57,0.47,0.44,0.19,distracted
+24,True,book,book,neutral,crummy,okay,neg,False,1,21228,0.53,0.62,0.35,0.53,Has a better opinion than speaker 1
+24,True,coffee,coffee,neutral,bitter,strong,neg,False,1,19591,0.62,0.65,0.47,0.47,might feel the same as speaker 1
+24,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,17472,0.49,0.5,0.33,0.38,Masking her feelings
+24,True,hat,hat,neutral,ugly,really bad,neg,False,1,18257,0.35,0.5,0.71,0.27,reassured
+24,True,museum,museum,neutral,classy,pretty classy,pos,False,1,22592,0.68,0.68,0.68,0.68,acknowledgement
+24,True,salad,salad,neutral,gross,pretty gross,neg,False,1,15325,0.25,0.51,1,0,
+24,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,19594,0.65,0.71,0.58,0.57,Uncertain about how good the smoothie was.
+24,True,song,song,neutral,catchy,really good,pos,False,1,18300,0.56,0.56,0.63,0.62,"isn&quotechart super hot about the song, but doesn&quotechart dislike it"
+25,True,book,book,neutral,crummy,okay,neg,False,1,43279,0.21,0.39,0.4,0.47,Speaker 2 thinks the book isn&quotechart as bad as speaker 1 thinks.
+25,True,coffee,coffee,neutral,bitter,strong,neg,False,1,44315,0.46,0.58,0.59,0.55,Speaker 2 is trying to be agreeable with speaker 1.
+25,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,104466,0.53,0.95,0.82,0.91,Speaker 2 thinks speaker 1 is correct.
+25,True,hat,hat,neutral,ugly,really bad,neg,False,2,42343,0.47,0.85,0.62,0.03,Speaker 2 thinks that the hat shouldn&quotechart be worn.
+25,True,museum,museum,neutral,classy,pretty classy,pos,False,1,45315,0.65,0.5,0.59,0.69,"Speaker 2 agrees with speaker one, just not as strongly."
+25,True,salad,salad,neutral,gross,pretty gross,neg,False,1,40704,0.3,0.81,0.67,0.09,Speaker 2 thinks they won&quotechart be ordering the salad again.
+25,True,smoothie,smoothie,neutral,refreshing,great,pos,False,2,56025,0.65,0.92,0.49,0.95,Speaker 2 thinks the smoothie is more than just refreshing.
+25,True,song,song,neutral,catchy,really good,pos,False,1,33344,0.64,0.75,0.79,0.86,Speaker 2 would listen to the song again.
+27,True,book,book,neutral,crummy,okay,neg,False,2,27162,0.53,0.52,0.56,0.37,She feels better about the book than her friend
+27,True,coffee,coffee,neutral,bitter,strong,neg,False,2,26857,0.56,0.54,0.44,0.7,She is stern
+27,True,documentary,documentary,neutral,fascinating,very cool,pos,False,2,24383,0.48,0.41,0.86,0.88,Indifference
+27,True,hat,hat,neutral,ugly,really bad,neg,False,1,31448,0.47,0.48,0.04,0.95,She is critical
+27,True,museum,museum,neutral,classy,pretty classy,pos,False,1,23555,0.74,0.74,0.75,0.74,Happy thoughts
+27,True,salad,salad,neutral,gross,pretty gross,neg,False,1,18303,0.56,0.54,0.05,0.98,she is unfufilled 
+27,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,11671,0.85,0.73,0.91,0.95,
+27,True,song,song,neutral,catchy,really good,pos,False,1,17254,0.55,0.64,0.66,0.63,She is happy
+28,True,book,book,neutral,crummy,okay,neg,False,1,22913,0.35,0.37,0.64,0.32,"They feel slightly more positive about the book, but not very."
+28,True,coffee,coffee,neutral,bitter,strong,neg,False,1,38695,0.7,0.57,0.69,0.56,"They kind of agree, though they feel strongly about having a slightly different opinion."
+28,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,85760,0.39,0.32,0.33,0.41,"They kind of disagree, but don&quotechart want to hurt the other person&quotechars feelings."
+28,True,hat,hat,neutral,ugly,really bad,neg,False,1,20098,0.54,0.38,0.27,0.75,They mostly feel agreement.
+28,True,museum,museum,neutral,classy,pretty classy,pos,False,1,89655,0.37,0.61,0.71,0.57,"They partially agree, but they think they have seen a classier museum."
+28,True,salad,salad,neutral,gross,pretty gross,neg,False,1,23902,0.54,0.37,0.22,0.74,"They feel agreement, partially/mostly."
+28,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,24512,0.37,0.26,0.27,0.22,They are being sarcastic (?)
+28,True,song,song,neutral,catchy,really good,pos,False,1,31145,0.39,0.27,0.3,0.41,They don&quotechart really want to talk about this topic.
+29,True,book,book,neutral,crummy,okay,neg,False,2,22176,0.47,0.47,0.28,0.45,annoyed
+29,True,coffee,coffee,neutral,bitter,strong,neg,False,1,20871,0.5,0.5,0.3,0.46,thoughful
+29,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,19008,0.5,0.5,0.6,0.63,
+29,True,hat,hat,neutral,ugly,really bad,neg,False,1,14415,0.49,0.49,0.96,0.03,
+29,True,museum,museum,neutral,classy,pretty classy,pos,False,1,21235,0.33,0.35,0.87,0.73,relaxed
+29,True,salad,salad,neutral,gross,pretty gross,neg,False,1,18451,0.44,0.42,0.88,0.09,sure
+29,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,22333,0.26,0.28,0.54,0.52,annoyed
+29,True,song,song,neutral,catchy,really good,pos,False,3,33790,0.23,0.24,0.68,0.63,certain
+30,True,book,book,neutral,crummy,okay,neg,False,2,34445,0.47,0.31,0.46,0.53,"disagreement, sort of liked the book"
+30,True,coffee,coffee,neutral,bitter,strong,neg,False,1,37580,0.52,0.52,0.53,0.52,its flavorful or strong
+30,True,documentary,documentary,neutral,fascinating,very cool,pos,False,1,24127,0.62,0.75,0.59,0.82,interest and agreement
+30,True,hat,hat,neutral,ugly,really bad,neg,False,2,25843,0.44,0.66,0.49,0.16,thought it was bad
+30,True,museum,museum,neutral,classy,pretty classy,pos,False,1,33611,0.53,0.66,0.5,0.63,"agreement, impressed"
+30,True,salad,salad,neutral,gross,pretty gross,neg,False,1,21187,0.37,0.55,0.5,0.3,disgust
+30,True,smoothie,smoothie,neutral,refreshing,great,pos,False,1,23065,0.63,0.75,0.51,0.85,Thought it was great
+30,True,song,song,neutral,catchy,really good,pos,False,1,21776,0.6,0.73,0.57,0.73,thought it was good
+1,False,cake_pos,cake,affirmative,good,good,pos,False,1,8258,0.69,0.92,0.89,0.81,
+1,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,10738,0.47,0.82,0.83,0.31,
+1,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,10356,0.29,0.94,0.17,0.78,
+2,False,movie_pos,movie,affirmative,boring,boring,neg,False,3,38055,0.43,0.59,0.35,0.83,Bored
+2,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,9144,0.72,0.82,0.76,0.78,
+2,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,11087,0.59,0.67,0.6,0.68,
+3,False,cake_pos,cake,affirmative,good,good,pos,False,1,24087,0.59,0.65,0.67,0.59,satisfied
+3,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,21961,0.55,0.85,0.13,0.38,sad
+3,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,35242,0.52,0.55,0.45,0.47,conflicted
+4,False,cake_pos,cake,affirmative,good,good,pos,False,1,13785,0.6,0.72,0.74,0.88,content
+4,False,movie_pos,movie,affirmative,boring,boring,neg,False,2,19192,0.76,0.22,0.54,0.81,sad
+4,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,21073,0.49,0.36,0.37,0.37,sarcastic
+5,False,cake_pos,cake,affirmative,good,good,pos,False,1,26016,0.78,0.87,0.92,0.92,speaker 2 genuinely thought the cake was good.  she was happy about having cake.
+5,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,34151,0.65,0.78,0.01,0.98,speaker 2 thinks speaker 1 is correct she feels confident that the ice cream was bad
+5,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,33464,0.79,0.86,0.02,0.97,speaker 2 felt bored during the movie and she totally agrees with speaker 1 about it.
+6,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,52207,0.12,0,0.54,1,She thought it was boring too.
+6,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,64229,1,1,1,1,None. She agreed with speaker 1 assessment.
+6,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,67467,0.24,0,0.64,1,She thought about her experience with the theatre
+7,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,25080,0.43,0,0.58,1,She sounds tired.
+7,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,37830,0.41,0.17,0.48,1,They sound impatient.
+7,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,4,48000,0.23,0.03,0.5,0.98,She sounds sad.
+8,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,2,22287,0.92,1,1,0.96,
+8,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,2,28289,0.07,0,0.29,0,
+8,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,3,29683,0.23,0.18,0.53,0.9,
+9,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,24075,0.66,0,1,1,Speaker 2 does think the ice cream is bad.
+9,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,25368,0,0,1,0.74,speaker 2 absolutely agrees the movie sucks.
+9,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,34717,0.53,0,1,1,They really believe the theater was dreary. 
+10,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,12904,0.63,0.73,0.61,0.3,
+10,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,8520,0.63,0.8,0.67,0.68,
+10,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,9664,0.58,0.71,0.72,0.7,
+11,False,cake_pos,cake,affirmative,good,good,pos,False,1,33791,0.9,1,1,1,Speaker 2 feels content.
+11,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,20687,0.91,1,0,0,Speaker 2 feels disappointment.
+11,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,12880,0.7,1,0,0,Speaker 2 feels bored.
+12,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,17389,0.06,0.52,0.67,0.87,They both agree.
+12,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,18078,0.66,0.73,0.65,0.73,Nothing.
+12,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,16851,0.24,0.36,0.58,0.66,
+13,False,cake_pos,cake,affirmative,good,good,pos,False,1,28887,0.36,0.44,0.55,0.53,maybe a little tired
+13,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,50361,0.09,0.16,0.16,0.51,"Cute is an insulting word in her mind, maybe."
+13,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,38148,0.49,0.11,0.85,0.5,enjoys agreeing with speaker 1
+14,False,cake_pos,cake,affirmative,good,good,pos,False,1,18764,1,0.98,0.91,0.99,She wants more cake.
+14,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,32881,0.84,0.96,0.61,0.06,She thinks its funny how bad it was.
+14,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,2,57607,0.94,0.61,0.64,0.74,She feels like she was too good for the restaurant.
+15,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,16656,0.34,1,0,0.74,Not sure
+15,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,14824,0.5,0.88,0.78,0.81,Not sure
+15,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,19856,0.47,1,0.21,0.73,Not sure
+16,False,cake_pos,cake,affirmative,good,good,pos,False,1,34483,0.95,0.93,0.95,0.93,Nothing else. She thinks the cake was very good.
+16,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,57542,0.09,0.69,0.29,0.64,She think the scarf was cute in a bad way.
+16,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,37564,0.08,0.84,0.91,0.68,"Again, nothing else but a dreary theatre is being conveyed here."
+17,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,17987,0.28,0.77,0.51,0.52,No idea.
+17,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,20462,0.13,0.96,0.51,0.51,No idea.
+17,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,16578,0.2,0.2,0.5,0.5,No idea.
+19,False,movie_pos,movie,affirmative,boring,boring,neg,False,2,41380,0.07,0.91,0.78,0.68,"She wasn&quotechart too pleased with the movie, it was rather dull."
+19,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,61451,0.67,0.79,0.66,0.59,She feels that the scarf is cute but doesn&quotechart seem to be too interested in it.
+19,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,48271,0.09,0.92,0.88,0.68,She thinks the theater was very dull and depressing. 
+20,False,cake_pos,cake,affirmative,good,good,pos,False,1,18046,0.71,0.78,0.37,0.71,They&quotecharre not in the mood for cake.
+20,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,23336,0.11,0.88,0.63,0.87,They like Speaker 1.
+20,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,27047,0.19,0.79,0.6,0.81,They&quotecharre tired.
+21,False,cake_pos,cake,affirmative,good,good,pos,False,3,33137,0.71,0.9,0.87,0.8,
+21,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,14448,0.36,0.76,0.34,0.69,
+21,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,11830,0.63,0.71,0.69,0.65,
+22,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,20711,0.99,0.68,0,0.14,Disgust
+22,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,15401,0.99,0.97,0.99,0.98,Content
+22,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,3,42927,0.92,0.88,0.05,0.59,annoyance
+23,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,19298,0.17,0.75,0.55,0.95,
+23,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,19362,0.13,0.65,0.52,0.82,no idea
+23,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,34616,0.68,0.62,0.16,0.16,the place was cozy. 
+24,False,cake_pos,cake,affirmative,good,good,pos,False,1,16442,1,1,1,1,Satisfied.
+24,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,19938,0.49,0.35,0.5,0.42,Hard to tell if they&quotecharre mocking
+24,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,17865,0.8,0.77,1,1,reassured and happy
+25,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,32658,0.24,0.78,0.51,0.09,Speaker 2 thinks speaker 1 is right.
+25,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,44123,0.66,0.93,0.81,0.71,Speaker 2 thinks they would like to go there again.
+25,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,2,61256,0.24,0.92,0.51,0.12,Speaker 2 would rather that the theater was nicer.
+27,False,cake_pos,cake,affirmative,good,good,pos,False,1,16978,0.59,0.63,0.92,0.95,Agreeable
+27,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,20134,0.55,0.47,0.15,0.9,She was disappointed
+27,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,19325,0.53,0.51,0.27,0.79,She was unhappy
+28,False,cake_pos,cake,affirmative,good,good,pos,False,1,22962,0.61,0.83,0.8,0.86,They agree almost completely. 
+28,False,movie_pos,movie,affirmative,boring,boring,neg,False,1,25392,0.44,0.28,0.25,0.73,They mostly feel agreement.
+28,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,23359,0.62,0.34,0.29,0.75,They mostly feel agreement.
+29,False,restaurant_pos,restaurant,affirmative,cozy,cozy,pos,False,1,17481,0.43,0.46,0.06,0.63,light
+29,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,3,43915,0.18,0.18,0.5,0.5,decisive 
+29,False,theatre_pos,theatre,affirmative,dreary,dreary,neg,False,1,18773,0.49,0.48,0.98,0.25,calm
+30,False,cake_pos,cake,affirmative,good,good,pos,False,2,18199,0.6,0.64,0.58,0.67,
+30,False,ice_cream_pos,ice cream,affirmative,bad,bad,neg,False,1,24413,0.26,0.77,0.51,0.11,disgust and agreement
+30,False,scarf_pos,scarf,affirmative,cute,cute,pos,False,1,18374,0.56,0.71,0.49,0.69,

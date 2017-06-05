@@ -37,9 +37,10 @@ function make_slides(f) {
       $("#error_percept").hide();
       $("#attention_check").data("dont-show", false);
       $("input[type=radio]").attr("checked", null);
+      $("textarea").val("");
 
-      $("#audio_src_mp3").attr("src", 'audio/'+ stim.audio + '.mp3');
-      $("#audio_src_ogg").attr("src", 'audio/'+ stim.audio + '.wav');
+      $("#audio_src_ogg").attr("src", 'audio/'+ stim.audio + '.ogg');
+      $("#audio_src_wav").attr("src", 'audio/'+ stim.audio + '.wav');
       
 
       $("#audio_player").load();
@@ -64,12 +65,17 @@ function make_slides(f) {
       $("#radio_6").val(this.stim.topics[5]);
 
       
-      this.n_sliders = 6;
-      this.sentences = ["Speaker 2 agrees with Speaker 1","Speaker 2 disagrees with Speaker 1","Speaker 2 likes the " + this.stim.topic,"Speaker 2 dislikes the " + this.stim.topic,"Speaker 2 is happy","Speaker 2 is unhappy"];
+      //this.sentences = ["Speaker 2 agrees with Speaker 1","Speaker 2 disagrees with Speaker 1","Speaker 2 likes the " + this.stim.topic,"Speaker 2 dislikes the " + this.stim.topic,"Speaker 2 is happy","Speaker 2 is unhappy"];
+      //this.sentences = _.shuffle([["Speaker 2 disagrees with Speaker 1","Speaker 2 agrees with Speaker 1"],["Speaker 2 dislikes the " + this.stim.topic, "Speaker 2 likes the " + this.stim.topic],["Speaker 2 is unhappy", "Speaker 2 is happy"]]);
+
+      this.sentences = [["disagrees with Speaker 1","agrees with Speaker 1", "agree"],["dislikes the " + this.stim.topic, "likes the " + this.stim.topic, "like"],["is unhappy", "is happy", "happy"],["is unfriendly", "is friendly", "friendly"]];
+      this.n_sliders = this.sentences.length;
+      this.shuffled_sentences = exp.shuffled_sentences;
       $(".slider_row").remove();
       for (var i=0; i<this.n_sliders; i++) {
-        var sentence = this.sentences[i];
-        $("#multi_slider_table").append('<tr class="slider_row"><td class="slider_target" id="sentence' + i + '">' + sentence + '</td><td colspan="2"><div id="slider' + i + '" class="slider">-------[ ]--------</div></td></tr>');
+        var sentence_left = this.sentences[this.shuffled_sentences[i]][0];
+        var sentence_right = this.sentences[this.shuffled_sentences[i]][1];
+        $("#multi_slider_table").append('<tr class="slider_row"><td class="slider_target_left" id="sentence_left' + i + '">' + sentence_left + '</td><td colspan="2"><div id="slider' + i + '" class="slider"><td class="slider_target_right" id="sentence_right' + i + '">' + sentence_right + '</td>-------[ ]--------</div></td></tr>');
         utils.match_row_height("#multi_slider_table", ".slider_target");
       }
 
@@ -137,13 +143,18 @@ function make_slides(f) {
 
 
       for (var i = 0; i < this.n_sliders; i++) {
-        if ($("#slider" + i).slider("option", "value") < 0) {
+        if ($("#slider" + i).slider("option", "value") < -0.1) {
           $("#error_percept").show();
           return;
         } else {
-          this.responses.push($("#slider" + i).slider("option", "value"));
+          this.responses.push([$("#slider" + i).slider("option", "value"), this.sentences[i][2]]);
         }
       }
+
+      // var text_field = $("#story-input").val();
+
+      this.open_answer = $("#other_percept").val();
+      this.responses.push([this.open_answer, "open_answer"]);
 
       this.log_responses();
       _stream.apply(this);
@@ -152,16 +163,22 @@ function make_slides(f) {
 
     log_responses : function() {
 
-      exp.data_trials.push({
+      var resp = {
           "filler": this.stim.filler,
           "topic" : this.stim.topic,
           "stimulus": this.stim.audio,
           "not_paid_attention": this.not_paid_attention,
           "pre_check_response": this.pre_check_response,
-          "responses": this.responses.join(","),
           "time": (new Date()) - this.trial_start,
           "num_plays": $("#audio_player").data("num-plays")
-        });
+        }
+
+      for (var i = 0; i < this.responses.length; i++) {
+        var x = this.responses[i];
+        resp[x[1]] = x[0];
+      }
+
+      exp.data_trials.push(resp);
     }
 
   });
@@ -169,142 +186,22 @@ function make_slides(f) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    //  $(".err").hide();
-    //  this.stim = stim;
-    //  console.log(stim.item);
-    //  $(".display_condition").html("XYZ Put audio stim here");
-    //},
-
-    // SET THE SLIDE    
-      // $(document).ready(function() {
-    //   $(".error_audio").hide();
-    //   $(".attention_check").hide();
-    //   $(".perception").hide();
-    //   $(".done_trial").hide();
-    //   $(".done_audio").click(check_audio);
-    //   loadNextAudio();
-    // // });
-
-
-
-    // THIS DOES THE SAME AS check_audio, RIGHT?
-    //
-    //button : function() {
-    //  this.response = $('input[name="audio"]:checked').val();
-    //  if (this.response == undefined) {
-    //    $(".err").show();
-    //  } else {
-    //    this.log_responses();
-    //    _stream.apply(this);}
-    //},
-
-    // ATTENTION CHECK
-    // slides.check = slide({
-    //   name : "attention_check",
-
-    //   present_handle: function() {
-    //   //$(".err").hide();
-    //   //this.stim = stim;
-    //   //console.log(stim.item);
-    //   //$(".display_condition").html("");
-    //   },
-    //   button : function() {
-    //   this.response = $('input[name="audio"]:checked').val();
-    //   if (this.response == undefined) {
-    //     $(".err").show();
-    //   } else {
-    //     this.log_responses();
-    //     _stream.apply(this);}
-    //   },
-
-      // SECOND BUTTON: CHECK THEY CORRECLTY ANSWERED THE CHECK QUESTION
-      // function check_check(){
-      //   this.response = $('XYZ').val();
-      //   if (this.response == false) {
-      //      $(".error_check").show()
-      //   } else { $("#percpetion").show()
-      //      $(".done_check").hide();
-      //      $(".error_check").hide()
-      //   }
-      // }
-    // },
-
-    // slides.experiment = slide({
-    //   name : "experiment",
-      
-    //   this.sentence_types = _.shuffle(["emotion", "stance", "align"]);
-    //   var sentences = {
-    //     "emotion": "Speaker 2 is " + stim.property,
-    //     "stance": "Speaker 2 " + stim.property + " the " + stim.type,
-    //     "align": "Speaker 2 " + stim.property + " with Speaker 1."},
-      
-    //   this.n_sliders = this.sentence_types.length;
-    //   $(".slider_row").remove();
-    //   for (var i=0; i<this.n_sliders; i++) {
-    //     var sentence_type = this.sentence_types[i];
-    //     var sentence = sentences[sentence_type];
-    //     $("#multi_slider_table").append('<tr class="slider_row"><td class="slider_target" id="sentence' + i + '">' + sentence + '</td><td colspan="2"><div id="slider' + i + '" class="slider">-------[ ]--------</div></td></tr>');
-    //     utils.match_row_height("#multi_slider_table", ".slider_target");
-    //   }
-    // THIRD BUTTON: CHECK THEY MOVED ALL SLIDERS
-      // function check_percept(){
-      //   this.response = $('XYZ').val();
-      //   if (this.response == false) {
-      //      $(".error_percept").show()
-      //   } else { $(".done_trial").show()
-      //      $(".done_percept").hide();
-      //      $(".error_percept").hide()
-      //   }
-      // }
-
-    //   this.init_sliders(this.sentence_types);
-    //   exp.sliderPost = [];
-    // },
-
-    // button : function() {
-    //   if (exp.sliderPost.length < this.n_sliders) {
-    //     $(".err").show();
-    //   } else {
-    //     this.log_responses();
-    //     _stream.apply(this); //use _stream.apply(this); if and only if there is "present" data.
-    //   }
-    // },
-
-    
-
-    // init_sliders : function(sentence_types) {
-    //   for (var i=0; i<sentence_types.length; i++) {
-    //     var sentence_type = sentence_types[i];
-    //     utils.make_slider("#slider" + i, this.make_slider_callback(i));
-    //   }
-    // },
-    // make_slider_callback : function(i) {
-    //   return function(event, ui) {
-    //     exp.sliderPost[i] = ui.value;
-    //   };
-    // },
-    // log_responses : function() {
-    //   for (var i=0; i<this.sentence_types.length; i++) {
-    //     var sentence_type = this.sentence_types[i];
-    //     exp.data_trials.push({
-    //       "trial_type" : "multi_slider",
-    //       "sentence_type" : sentence_type,
-    //       "response" : exp.sliderPost[i]
-    //     });
-    //   }
-    // }
-  // });
+  slides.hit_info =  slide({
+    name : "hit_info",
+    submit : function(e){
+      //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
+      exp.hit_data = {
+        audio_input : $("#audio_input").val(),
+        speaker_impressions : $("#speaker_impressions").val(),
+        enjoyment : $("#enjoyment").val(),
+        asses : $('input[name="assess"]:checked').val(),
+        comments : $("#comments").val(),
+        problems: $("#problems").val(),
+        fairprice: $("#fairprice").val()
+      };
+      exp.go(); //use exp.go() if and only if there is no "present" data.
+    }
+  });
 
   slides.subj_info =  slide({
     name : "subj_info",
@@ -312,14 +209,10 @@ function make_slides(f) {
       //if (e.preventDefault) e.preventDefault(); // I don't know what this means.
       exp.subj_data = {
         language : $("#language").val(),
-        enjoyment : $("#enjoyment").val(),
-        asses : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
-        education : $("#education").val(),
-        comments : $("#comments").val(),
-        problems: $("#problems").val(),
-        fairprice: $("#fairprice").val()
+        enthnicity : $("#enthnicity").val(),
+        education : $("#education").val()
       };
       exp.go(); //use exp.go() if and only if there is no "present" data.
     }
@@ -332,6 +225,7 @@ function make_slides(f) {
           "trials" : exp.data_trials,
           "system" : exp.system,
           "condition" : exp.condition,
+          "hit_information" : exp.hit_data,
           "subject_information" : exp.subj_data,
           "time_in_minutes" : (Date.now() - exp.startT)/60000
       };
@@ -343,7 +237,7 @@ function make_slides(f) {
 }
 
   function makeStim(i) {
-    var topics = ["cake","documentary","movie","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+    var topics = ["cake","scarf","restaurant","ice cream","movie","theatre","documentary","smoothie","song","museum","coffee","book","hat","salad","soup","painting", "laptop","cell phone","car","cat","dog","bird","sweater","bag","musical","watch","chair","table"];
     var stim = i;
     var idx = topics.indexOf(stim.topic);
     topics.splice(idx, 1);
@@ -360,14 +254,28 @@ function init() {
   exp.data_trials = [];
   exp.audio_stims = _.shuffle(audio); //can randomize between subject conditions here
   // exp.percpet_stims = _.shuffle(percept);
+  exp.shuffled_sentences = _.shuffle([0, 1, 2, 3]);
   console.log(exp.audio_stims[0].audio);
   var observed_topics = [];
+  var observed_pos = 0;
+  var observed_neg = 0;
   for (j = 0; j< exp.audio_stims.length; j++) {
     // console.log("inside for loop");
     // console.log(exp.audio_stims[j]);
     var topic = exp.audio_stims[j].topic;
+    var valence = exp.audio_stims[j].valence;
+    if (valence == "pos" & observed_pos == 3) //equal pos and neg stims
+       continue;
+    if (valence == "neg" & observed_neg == 3) //equal pos and neg stims
+       continue;
     if (observed_topics.indexOf(topic) > -1)
       continue;
+    if (valence == "pos") //equal pos and neg stims
+       observed_pos += 1;
+    if (valence == "neg") //equal pos and neg stims
+       observed_neg += 1;
+
+
     observed_topics.push(topic);
     makeStim(exp.audio_stims[j]);
   }
@@ -382,7 +290,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0", "instructions", "trial", 'subj_info', 'thanks'];
+  exp.structure=["i0", "instructions", "trial", 'hit_info', 'subj_info', 'thanks'];
 
   //make corresponding slides:
   exp.slides = make_slides(exp);
@@ -413,11 +321,7 @@ function init() {
 
       });
 
-//gets the right audio file for the trial
-// function getAudioFile(elem) {
-//   var audio_name = 'audio/wavs/' + exp.audio_stims + '.wav';
-//   return audio_name;
-// }
+
 
   exp.go(); //show first slide
 }
