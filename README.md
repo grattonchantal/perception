@@ -1,7 +1,8 @@
 # perception
 
-High level summary
-If someone who has no idea what you were up to, they should be able to read this description and get a general sense of what the project is about and where to look for which bits and pieces.
+The current study address the existing prosody/pragmatics literature examing the perception of a particular intonational contour: constrastive prosody. I attempt replicating results focused solely on utterance final prosody as a source of interactional meaning, namely agreement. The results do not support prior assumption and instead suggest the need for further research will test the potential of utterance initial phonetic cues indicating interactional meaning and attempt to tease apart the interrelated meanings of agreement, evaluation, and positionality.
+
+The paper proper can be found in /docs.
 
 ## perception/docs
 Documents related to the experiement
