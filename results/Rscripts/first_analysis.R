@@ -197,7 +197,7 @@ summary(m3_happy)
 
 
 
-summary(lm(agree ~ prosody*adj_1_pole + like + friendly + happy + as.factor(workerid), data=crit_df, REML=F))
+summary(lm(agree ~ prosody*adj_1_pole + like + friendly + happy + as.factor(adj_1), data=crit_df, REML=F))
 
 
 
@@ -220,7 +220,8 @@ summary(lm(agree~as.factor(prosody)*as.factor(adj_1_pole) + as.factor(workerid),
 
 summary(lm(happy~as.factor(prosody)*as.factor(adj_1_pole) + as.factor(workerid),data=sans22))
 
-
+library(lmerTest)
+summary(lmer(happy ~ prosody*adj_1_pole + (1|workerid) + (1|adj_1),  ))
 
 
 
