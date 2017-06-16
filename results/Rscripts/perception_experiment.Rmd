@@ -2,9 +2,8 @@
 title: "Effects of prosody on the perception of agreement"
 author: "gratton"
 date: "June 14, 2017"
-output:  
-      html_document:  
-        keep_md: true
+output: github_document
+  #html_document: default
   #pdf_document:
     #fig_height: 4
     #fig_width: 6
